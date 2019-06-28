@@ -3,7 +3,7 @@
 
 监测服务jvm情况
 
-1、启动项目的 .sh 方法内，启动配置下 添加配置信息：\n
+1、启动项目的 .sh 方法内，启动配置下 添加配置信息：\r\n
 -Dcom.sun.management.jmxremote 【开启 jmx，jdk 1.5 前需要手动开启，后面jdk版本可省略】\n
 -Dcom.sun.management.jmxremote.ssl=false 【不开启 ssl 通道】\n
 -Dcom.sun.management.jmxremote.authenticate=false 【不开启验证】\n
